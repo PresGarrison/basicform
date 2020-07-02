@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form class="form-inline"> 
+        <h1>freeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+
+        <div class="formGroup">
+            <label class="align-left dblock">Name</label>
+            <input class="width100" type="text" placeholder="Enter your name" required>
+        </div>
+
+
+        <div class="formGroup">
+            <label class="align-left dblock">Email</label>
+            <input class="width100" type="email" placeholder="Enter your Email" required>
+        </div>
+        
+        
+        <div class="formGroup">
+            <label class="align-left dblock">Age(optional)</label>
+            <input class="width100" type="text" placeholder="Age">
+        </div>    
+        
+        
+        <div class="formGroup">
+            <label class="align-left dblock">Which option best describes your current role?</label>
+            
+            <select>
+                <option selected="true" disabled="disabled">Select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="preferNo">Prefer Not to Say</option>
+                <option value="others">Other</option>
+            </select>
+        </div>
+        
+        
+        <div class="formGroup">
+            <label class="align-left dblock">Would you recommend freeCodeCamp to a friend?</label>
+
+            <label class="dblock align-left">
+                <input type="radio" name="quiz" checked>Definitely
+            </label>
+            <label class="dblock align-left">
+                <input type="radio" name="quiz">Maybe
+            </label>
+            <label class="dblock align-left">
+                <input type="radio" name="quiz">Not Sure
+            </label>
+            
+        </div>
+        
+        
+        <div class="formGroup">
+            <label class="dblock align-left">What would you like to see improved?<span>   (Check all that apply)</span></label>
+            <label class="dblock align-left">
+                <input type="checkbox">Front-end Projects
+            </label>
+            <label class="dblock align-left">
+                <input type="checkbox">Back-end Projects
+            </label>
+            <label class="dblock align-left">
+                <input type="checkbox">Data Visualizations
+            </label>
+            <label class="dblock align-left">
+                <input type="checkbox">Challenges
+            </label>
+            <label class="dblock align-left">
+                <input type="checkbox">Open Source Communities
+            </label>
+            <label class="dblock align-left">
+                <input type="checkbox">Videos
+            </label>
+            <label class="dblock align-left">
+                <input type="checkbox">City Meetups
+            </label>
+            <label class="dblock align-left">
+                <input type="checkbox">Wiki
+            </label>
+            <label class="dblock align-left">
+                <input type="checkbox">Form
+            </label>
+            <label class="dblock align-left">
+                <input type="checkbox">Additional Courses
+            </label>
+        </div>
+       
+       
+        <div class="formGroup">
+            <label class="dblock">Any comments or suggestions?</label>
+            <textarea class="width100" placeholder="Enter your comment here..."></textarea> 
+        </div>
+
+        <button class="">Submit</button>
+    </form>
+</body>
+</html>

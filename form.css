@@ -1,0 +1,72 @@
+body {
+    background-attachment: fixed;
+    font-size:1.2rem;
+    text-align: center;
+    margin:2rem;
+    font-family: 'Lora', serif;
+    background-image: url(https://margianatrading.com/wp-content/uploads/2016/06/blurred-background-office.jpg);
+}
+
+form {
+    color:white;
+    display: inline-block;
+    padding:2rem;
+    background-color: rgba(50,50, 50, .9);
+    margin:0 auto;
+    text-align:center;
+    width:600px;
+    border-radius: 10px;
+}
+
+input {
+    border-radius:10px;
+    outline:none;
+}
+
+textarea {
+    border-radius: 10px;
+    height:150px;
+    outline:none;
+}
+
+select {
+    width:100%
+}
+
+button {
+    border-radius:10px;
+    background:gray;
+    border: none;
+    width:95%;
+    height: 30px;
+    color:white;
+}
+
+button:hover {
+    background:rgba(128, 128, 128, 0.664);
+}
+
+label {
+    margin-bottom:1rem;
+}
+
+span {
+    font-size: .6rem;
+}
+
+.formGroup {
+    padding:2%;
+}
+
+.dblock {
+    display: block;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.width100 {
+    width:100%;
+    padding:.5rem;
+}
